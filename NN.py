@@ -1,4 +1,4 @@
-def neural_network(inputs: list, weights: list) -> float:   
+def neural_network(inputs: list, weights: list) -> float:
     prediction = 0
     for i in range(len(inputs)):
         prediction += inputs[i] * weights[i]
@@ -19,7 +19,7 @@ true = win_or_lose_binary[0]
 
 input = [toes[0], win_lose_percentage[0], n_fans[0]]
 weight = [0.1, 0.2, -0.1]
-alpha = 0.1
+alpha = 0.01
 
 for iteration in range(len(win_or_lose_binary)):
     prediction = neural_network(input, weight)
