@@ -30,3 +30,7 @@ for iteration in range(len(win_or_lose_binary)):
     print("weights: ", weight)
     for i in range(len(weight)):
         weight[i] -= alpha * weight_deltas[i]
+passmark = 50
+df = [31, 55, 61]
+
+print(("F", "P")[mark >= passmark] for mark in df)
